@@ -1,3 +1,6 @@
+SOLVED:
+In-case you find this from Google, Charlie commented with why on [the issue](https://github.com/astral-sh/uv/issues/6685#issuecomment-2859878230)
+
 The command `docker build .` fails with the following error message:
 ```
  > [production 5/8] RUN uv sync --locked --no-install-workspace --compile-bytecode --no-group dev:
@@ -11,3 +14,5 @@ The command `docker build .` fails with the following error message:
 ERROR: failed to solve: process "/bin/sh -c uv sync --locked --no-install-workspace --compile-bytecode --no-group de
 v" did not complete successfully: exit code: 1
 ```
+
+
